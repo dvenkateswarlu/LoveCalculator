@@ -28,30 +28,30 @@ The project demonstrates the use of Spring Boot, JSP, Hibernate/JPA, Validation,
 
 ## 📂 Project Structure
 src/main/java
- └── com.example.demo
-      ├── LoveCalculatorApplication.java      # Main entry point
-      ├── CommunicationDTO/                   # DTOs for communication (Email, Phone)
-      ├── Config/                             # Formatter & Mail configurations
-      ├── Controller/                         # Controllers (Home, Login, Register, Email)
-      ├── EmailDTO/                           # DTO for Email handling
-      ├── EmailService/                       # Service layer (Email, Logic, Entity)
-      ├── EntityClass/                        # Entity and Repository
-      ├── UserDTO/                            # DTOs for User (Login, Register, HomePage)
-      └── Validator/                          # Custom Validators (Age)
-      
+└── com.example.demo
+├── LoveCalculatorApplication.java # Main entry point
+├── CommunicationDTO/ # DTOs for communication (Email, Phone)
+├── Config/ # Formatter & Mail configurations
+├── Controller/ # Controllers (Home, Login, Register, Email)
+├── EmailDTO/ # DTO for Email handling
+├── EmailService/ # Service layer (Email, Logic, Entity)
+├── EntityClass/ # Entity and Repository
+├── UserDTO/ # DTOs for User (Login, Register, HomePage)
+└── Validator/ # Custom Validators (Age)
+
 src/main/resources
- ├── application.properties                   # App configuration
- ├── mail.properties                          # Mail setup
- └── messages.properties                      # Validation messages
+├── application.properties # App configuration
+├── mail.properties # Mail setup
+└── messages.properties # Validation messages
 
 src/main/webapp/WEB-INF/views
- ├── home.jsp
- ├── home-process.jsp
- ├── email.jsp
- ├── email-process.jsp
- ├── registration.jsp
- ├── register-process.jsp
- └── Login.jsp
+├── home.jsp
+├── home-process.jsp
+├── email.jsp
+├── email-process.jsp
+├── registration.jsp
+├── register-process.jsp
+└── Login.jsp
 
 ---
 
